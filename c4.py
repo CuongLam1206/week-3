@@ -7,7 +7,6 @@ def is_valid_email(email):
             return True
     return False
 
-# Ví dụ sử dụng
 email_input = input("Nhập vào địa chỉ email: ")
 if is_valid_email(email_input):
     print("Valid")
